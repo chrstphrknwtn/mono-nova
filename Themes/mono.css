@@ -1,0 +1,238 @@
+meta {
+    -theme-interface-style: dark;
+    -theme-vibrancy: none;
+    -theme-accent-color: auto;
+}
+
+/*
+ * Window styles
+ */
+meta.window {
+  background-color: hsb(0, 0%, 6%);
+}
+meta.titlebar {
+  color: hsb(0, 0%, 80%);
+  background: hsb(0, 0%, 6%);
+  border-color: hsb(0, 0%, 0%);
+}
+meta.titlebar.inactive {
+    background-color: hsb(0, 0%, 6%);
+}
+
+meta.button {
+  background: hsba(0, 0%, 100%, 0.1);
+  color: hsb(0, 0%, 80%);
+  border: hsba(0, 0%, 0%, 0.4);
+}
+meta.button.highlighted {
+  background: hsba(0, 0%, 100%, 0.4);
+  color: white;
+}
+meta.button.selected {
+    color: white;
+}
+meta.button.highlighted.selected {
+    color: white;
+}
+meta.button.disabled {
+    background: hsba(0, 0%, 0%, 0.2);
+    color: hsb(0, 0%, 40%);
+    border: hsba(0, 0%, 0%, 0.2);
+}
+meta.textfield {
+}
+meta.accent {
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+    background-color: hsb(0, 0%, 10%);
+    border-color: hsb(0, 0%, 0%);
+}
+
+meta.document.button {
+}
+meta.document.button.disabled {
+}
+meta.document.button.highlighted {
+}
+meta.document.textfield {
+}
+
+/* Text */
+meta.text {
+  color: hsb(0, 0%, 90%);
+}
+meta.text.invisible {
+  color: hsb(0, 0%, 20%);
+}
+meta.text.selected {
+}
+
+/* Cursor */
+meta.cursor {
+  background-color: hsb(0, 0%, 16%);
+}
+
+/* Indentation Guides */
+meta.indentguide {
+}
+
+/* Gutter */
+meta.gutter {
+  color: hsb(0, 0%, 20%);
+}
+meta.gutter.selected {
+  color: hsb(0, 0%, 35%);
+}
+
+
+/*
+ * Syntax styles
+ */
+keyword {
+  color: hsb(0, 0%, 55%);
+}
+comment {
+  color: hsb(0, 0%, 30%);
+}
+processing {
+}
+declaration {
+}
+bracket {
+  color: hsb(0, 0%, 55%);
+}
+operator {
+  color: hsb(0, 0%, 55%);
+}
+invalid {
+}
+link {
+}
+
+/* Values */
+value.boolean,
+value.number {
+  color: hsb(250, 45%, 96%);
+}
+value.null {
+  color: hsb(0, 0%, 55%);
+}
+value.entity {
+}
+value.symbol {
+}
+
+/* Identifiers */
+identifier.type {
+}
+identifier.constant {
+}
+identifier.global,
+identifier.variable {
+}
+identifier.property,
+identifier.decorator,
+identifier.function,
+identifier.method {
+    color: hsb(0, 0%, 65%);
+}
+identifier.key {
+}
+identifier.argument {
+    font-style: italic;
+}
+
+/* Strings */
+string,
+regex {
+    color: hsb(56, 25%, 80%);
+}
+string.key {
+}
+string-template {
+}
+string-template.value {
+}
+regex.escaped {
+}
+cdata {
+}
+
+/* Markup */
+markup.heading {
+    color: hsb(0, 0%, 55%);
+}
+markup.line {
+}
+markup.bold {
+    font-weight: bold;
+}
+markup.italic {
+    font-style: italic;
+}
+markup.strikethrough {
+    font-style: strikethrough;
+}
+markup.list.item {
+}
+markup.code {
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+    font-weight: bold;
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+    color: hsb(0, 0%, 80%);
+}
+
+/* Tags */
+tag {
+}
+tag.framework {
+}
+tag.attribute.name,
+tag.attribute.equals-sign {
+    color: hsb(0, 0%, 55%);
+}
+tag.attribute.value {
+    color: hsb(56, 25%, 80%);
+}
+tag.attribute.value.link {
+}
+
+/* Styles */
+style.at {
+  font-weight: bold;
+}
+style.selector.pseudoclass,
+style.selector.pseudoelement,
+style.selector.identifier.id,
+style.selector.identifier.class {
+    color: hsb(0, 0%, 55%);
+}
+style.attribute.name {
+  font-style: italic;
+}
+style.value.number {
+}
+style.value.color.hex {
+  color: hsb(250, 45%, 96%);
+}
+style.value.keyword {
+}
+style.value.color.named {
+}
