@@ -1,5 +1,6 @@
-# Mono Nova Theme
+<img src="https://raw.githubusercontent.com/chrstphrknwtn/mono-nova/master/extension@2x.png" width="64" height="64" alt="" />
 
+# Mono
 A mostly monochrome and very dark theme for [Nova](https://nova.app).
 
 ![Mono theme screenshot](https://raw.githubusercontent.com/chrstphrknwtn/mono-nova/master/screenshot.png)
