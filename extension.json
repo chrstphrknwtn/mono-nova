@@ -3,7 +3,7 @@
   "name": "Mono",
   "organization": "Christopher Newton",
   "description": "A mostly monochrome and very dark theme for Nova.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "categories": ["themes"],
   "repository": "https://github.com/chrstphrknwtn/mono-nova",
   "bugs": "https://github.com/chrstphrknwtn/mono-nova/issues"
