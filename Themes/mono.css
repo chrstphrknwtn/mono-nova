@@ -1,7 +1,7 @@
 meta {
-    -theme-interface-style: dark;
-    -theme-vibrancy: none;
-    -theme-accent-color: auto;
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: true;
 }
 
 /*
@@ -16,7 +16,7 @@ meta.titlebar {
   border-color: hsb(0, 0%, 0%);
 }
 meta.titlebar.inactive {
-    background-color: hsb(0, 0%, 6%);
+  background-color: hsb(0, 0%, 6%);
 }
 
 meta.button {
@@ -29,15 +29,15 @@ meta.button.highlighted {
   color: white;
 }
 meta.button.selected {
-    color: white;
+  color: white;
 }
 meta.button.highlighted.selected {
-    color: white;
+  color: white;
 }
 meta.button.disabled {
-    background: hsba(0, 0%, 0%, 0.2);
-    color: hsb(0, 0%, 40%);
-    border: hsba(0, 0%, 0%, 0.2);
+  background: hsba(0, 0%, 0%, 0.2);
+  color: hsb(0, 0%, 40%);
+  border: hsba(0, 0%, 0%, 0.2);
 }
 meta.textfield {
 }
@@ -48,8 +48,8 @@ meta.accent {
  * Document styles
  */
 meta.document {
-    background-color: hsb(0, 0%, 10%);
-    border-color: hsb(0, 0%, 0%);
+  background-color: hsb(0, 0%, 10%);
+  border-color: hsb(0, 0%, 0%);
 }
 
 meta.document.button {
@@ -87,7 +87,6 @@ meta.gutter {
 meta.gutter.selected {
   color: hsb(0, 0%, 35%);
 }
-
 
 /*
  * Syntax styles
@@ -138,18 +137,17 @@ identifier.property,
 identifier.decorator,
 identifier.function,
 identifier.method {
-    color: hsb(0, 0%, 65%);
+  color: hsb(0, 0%, 65%);
 }
 identifier.key {
 }
 identifier.argument {
-    font-style: italic;
 }
 
 /* Strings */
 string,
 regex {
-    color: hsb(56, 25%, 80%);
+  color: hsb(56, 25%, 80%);
 }
 string.key {
 }
@@ -164,18 +162,18 @@ cdata {
 
 /* Markup */
 markup.heading {
-    color: hsb(0, 0%, 55%);
+  color: hsb(0, 0%, 55%);
 }
 markup.line {
 }
 markup.bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 markup.italic {
-    font-style: italic;
+  font-style: italic;
 }
 markup.strikethrough {
-    font-style: strikethrough;
+  font-style: strikethrough;
 }
 markup.list.item {
 }
@@ -189,14 +187,14 @@ definition.package package.name,
 definition.enum enum.name,
 definition.union union.name,
 definition.struct struct.name {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* Members */
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-    color: hsb(0, 0%, 80%);
+  color: hsb(0, 0%, 80%);
 }
 
 /* Tags */
@@ -206,10 +204,10 @@ tag.framework {
 }
 tag.attribute.name,
 tag.attribute.equals-sign {
-    color: hsb(0, 0%, 55%);
+  color: hsb(0, 0%, 55%);
 }
 tag.attribute.value {
-    color: hsb(56, 25%, 80%);
+  color: hsb(56, 25%, 80%);
 }
 tag.attribute.value.link {
 }
@@ -222,10 +220,9 @@ style.selector.pseudoclass,
 style.selector.pseudoelement,
 style.selector.identifier.id,
 style.selector.identifier.class {
-    color: hsb(0, 0%, 55%);
+  color: hsb(0, 0%, 55%);
 }
 style.attribute.name {
-  font-style: italic;
 }
 style.value.number {
 }
