@@ -1,3 +1,7 @@
+## 0.0.5
+
+Got any blacker?
+
 ## 0.0.4
 
 1. Remove italic styling on function arguments.  

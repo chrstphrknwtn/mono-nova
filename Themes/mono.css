@@ -48,7 +48,7 @@ meta.accent {
  * Document styles
  */
 meta.document {
-  background-color: hsb(0, 0%, 10%);
+  background-color: hsb(0, 0%, 6%);
   border-color: hsb(0, 0%, 0%);
 }
 
@@ -73,7 +73,7 @@ meta.text.selected {
 
 /* Cursor */
 meta.cursor {
-  background-color: hsb(0, 0%, 16%);
+  background-color: hsb(0, 0%, 10%);
 }
 
 /* Indentation Guides */
@@ -85,7 +85,7 @@ meta.gutter {
   color: hsb(0, 0%, 20%);
 }
 meta.gutter.selected {
-  color: hsb(0, 0%, 35%);
+  color: hsb(0, 0%, 50%);
 }
 
 /*
